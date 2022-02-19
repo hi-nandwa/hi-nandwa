@@ -1,3 +1,4 @@
+import Navbar from "@nandwa/components/Navbar";
 import Head from "next/head";
 
 
@@ -9,7 +10,8 @@ export default function Home() {
               <meta name="description" content="" />
               <link rel="icon" href="/favicon.ico" />
           </Head>
-          <h1 className="text-3xl font-bold underline">
+          <Navbar/>
+          <h1 className="text-3xl font-bold">
               Coming Soon
           </h1>
       </>
