@@ -6,14 +6,19 @@ export default function Home() {
   return (
       <>
           <Head>
-              <title>nandwa</title>
+              <title>Nandwa  | Homepage</title>
               <meta name="description" content="" />
-              <link rel="icon" href="/favicon.ico" />
+              <link rel="icon" href="/mylogo.png" />
           </Head>
-          <Navbar/>
-          <h1 className="text-3xl font-bold">
-              Coming Soon
-          </h1>
+
+         <Navbar/>
+
+        <div className="py-14">
+            <h1 className="text-3xl flex font-bold justify-center">
+                Dropping Soon
+            </h1>
+        </div>
+
       </>
 
   )
