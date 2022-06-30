@@ -2,7 +2,7 @@
   "name": "hi-nandwa",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,12 +11,15 @@
     "@heroicons/react": "^1.0.5",
     "next": "12.0.10",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.4.0",
+    "react-scroll": "^1.8.7"
   },
   "devDependencies": {
     "@headlessui/react": "^1.5.0",
     "@types/node": "17.0.18",
     "@types/react": "17.0.39",
+    "@types/react-scroll": "^1.8.3",
     "autoprefixer": "^10.4.2",
     "eslint": "8.9.0",
     "eslint-config-next": "12.0.10",
